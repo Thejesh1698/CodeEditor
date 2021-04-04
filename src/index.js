@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// const electron = window.require('electron');
+// const remote = electron.remote
+// const {BrowserWindow,dialog,Menu} = remote
 
 ReactDOM.render(
   <React.StrictMode>

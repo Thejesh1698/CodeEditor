@@ -1,0 +1,137 @@
+html, body, #root, .main-body-wrapper{
+    width: 100%;
+    height: 100%;
+    /*border-radius: 1.5rem;*/
+}
+.main-body-wrapper{
+    /*background-color: #878fa7;*/
+    background-color: #9302e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-body {
+    width: 99%;
+    height: 98%;
+    margin: auto;
+    /*border-radius: 1.2rem;*/
+}
+.head-tool-bar-wrapper{
+    float: left;
+    height: 5%;
+    width: 97%;
+    /*background-color: #2e2e41;*/
+    background-color: #1f082b;
+    /*border-top-right-radius: 1.2rem;*/
+}
+.side-tool-bar-wrapper{
+    float: left;
+    height: 100%;
+    width: 3%;
+    /*background-color: #29293a;*/
+    background-color: #250234;
+    /*border-top-left-radius: 1.2rem;*/
+    /*border-bottom-left-radius: 1.2rem;*/
+}
+.main-center-wrapper{
+    float: left;
+    /*background-color: #37384a;*/
+    background-color: #2e1a3e;
+    width: 97%;
+    height: 92%;
+}
+
+.main-center-area{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0.8rem;
+}
+
+.main-editor-wrapper{
+    float: left;
+    height: 100%;
+    min-width: 60%;
+    width: 82%;
+    max-width: 82%;
+    background-color: #3a1c51;
+}
+
+/* head tool bar component css*/
+.head-tool-bar{
+    width: 100%;
+    height: 100%;
+    padding: 1% 0;
+}
+.window-options{
+    float: right;
+    color: white;
+    margin-right: 0.5rem;
+}
+
+/* side bar component css*/
+.sidebar-wrapper{
+    float: left;
+    height: 100%;
+    min-width: 18%;
+    width: 18%;
+    max-width: 40%;
+    resize: horizontal;
+    /*background-color: #37384a;*/
+    background-color: #2e1a3e;
+    /*background-color: white;*/
+    overflow: auto;
+    box-sizing: border-box;
+    color: white;
+    padding-top: 1rem;
+    padding-left: 0.2rem;
+}
+
+.folderTreeHeader{
+    width: 100%;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+}
+
+.search-area{
+    width: 95%;
+    box-sizing: border-box;
+    height: 3.2rem;
+    background: #250234;
+    border-radius: 0.5rem;
+    max-width: 20rem;
+}
+
+.search-box{
+    float: left;
+    width: 85%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.search-input{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    background: #250234;
+    color: white;
+    padding-left: 1rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.search-plus{
+    float: right;
+    width: 15%;
+    height: 100%;
+    background: #9302e3;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
